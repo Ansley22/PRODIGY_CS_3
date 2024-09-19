@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script defer src="script.js"></script>    
+</head>
+<body>
+    <div class="group">
+        <h1 id="top">Prodigy Infotech_Task-03</h1>
+        <h1>Password Strength Checker</h1>
+        <label for="">Password</label>
+        <input type="text" id="password" placeholder="Type your password"/>
+        <label for="">Strength of password</label>
+        <div class="power-container">
+            <div id="power-point"></div>
+        </div>
+        <div id="password-note">
+            <ul>
+                <li id="length-check" class="invalid">Password must be at least 6 characters long</li>
+                <li id="lowercase-check" class="invalid">Should include at least one lowercase letter (a-z)</li>
+                <li id="uppercase-check" class="invalid">Should include at least one uppercase letter (A-Z)</li>
+                <li id="number-check" class="invalid">Should include at least one number (0-9)</li>
+                <li id="special-check" class="invalid">Should include at least one special character (!, @, #, $, etc.)</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
